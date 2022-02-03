@@ -335,10 +335,6 @@ input#id_username, input#id_password {
   color: var(--font-color);
   font-size: 1.5rem;
 }
-
-.aligning{
-    margin-top: 7.5%;
-}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -350,6 +346,16 @@ input#id_username, input#id_password {
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+
+.aligning {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aligning_top{
+    margin-top: 2%;
+}
 
 
     </style>
@@ -378,11 +384,12 @@ input#id_username, input#id_password {
     <h5 class="text-2xl center-align font-bold" style="color:#a02929;">Prepared By Department of Computer Engineering</h5>
   <section class="flex flex-wrap">
     
-   <section class="text-gray-600 body-font flex flex-col overflow-hidden lg:w-1/2 md:w-[40%] h-auto container mx-auto aligning">
+   <section class="text-gray-600 body-font flex flex-col overflow-hidden lg:w-1/2 md:w-[40%] h-auto container mx-auto aligning_top">
     <form class="main mx-20 px-5 pt-3 pb-6 " id="form" action="" method="POST" novalidate="novalidate">
       <div id="forminner">
         <div class="row">
-          <div class="col s12">
+          <div class="col s12 center-align">
+            <img src="logo.png" class='aligning'></img>
             <h5 class="text-2xl center-align" style="color:#a02929;">Click here to download our Application</h5>
           </div>
         </div>
